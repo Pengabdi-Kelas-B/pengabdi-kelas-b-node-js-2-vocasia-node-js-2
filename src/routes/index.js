@@ -2,8 +2,8 @@ const express = require("express")
 const testRoutes = require("./test_routes")
 const categoryRouter = require("./category_routes")
 const bookRouter = require("./book_routes")
-const bookRouter = require("./author_routes")
-const bookRouter = require("./borrower_routes")
+const authorRouter = require("./author_routes")
+const borrowerRouter = require("./borrower_routes")
 
 const routes = express.Router()
 
